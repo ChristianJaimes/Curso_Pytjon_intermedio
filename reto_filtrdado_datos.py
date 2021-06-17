@@ -79,7 +79,7 @@ def run():
 
     adultos = [worker["name"] for worker in DATA if worker["age"] > 18]
     oldPeople =[worker |{"old":True} for worker in DATA if worker["age"] > 70]
-  
+
     for worker in oldPeople:
         print(worker)
 
