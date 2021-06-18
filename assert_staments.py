@@ -11,6 +11,8 @@ def run():
     num = input("Ingresa un numero: " )
     assert num.replace("-","").isnumeric(),"Debes ingresar un valor numerico"
     print(divisors(int(num)))
+    ValueError
+    SyntaxError
     print("termino el programa")
 
 if __name__ == '__main__':
